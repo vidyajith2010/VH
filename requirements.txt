@@ -1,5 +1,5 @@
 Flask==3.1.1
-numpy==2.3.1
+numpy==2.2.6
 opencv_contrib_python==4.6.0.66
 opencv_python==4.11.0.86
 opencv_python_headless==4.9.0.80
