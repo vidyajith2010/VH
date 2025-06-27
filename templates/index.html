@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vehicle Counter</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    #video { border: 2px solid black; cursor: crosshair; }
+  </style>
+</head>
+<body>
+  <h2>Upload Video & Define Zones</h2>
+  <form id="uploadForm">
+    <input type="file" name="video" accept="video/*">
+    <button type="submit">Upload</button>
+  </form>
+  <hr>
+  <img id="video" src="/video_feed" width="800">
+  <script src="/static/script.js"></script>
+</body>
+</html>

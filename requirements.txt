@@ -1,0 +1,6 @@
+flask
+gunicorn
+opencv-python
+ultralytics
+deep_sort_realtime
+numpy
