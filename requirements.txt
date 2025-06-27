@@ -6,3 +6,4 @@ opencv_python_headless
 scipy
 tensorflow
 ultralytics
+gunicorn
