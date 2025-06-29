@@ -5,7 +5,7 @@ import numpy as np
 from core_logic import VehicleCounter
 
 app = Flask(__name__)
-upload_folder = "uploads"
+upload_folder = "/tmp"  # Use safe writeable directory
 os.makedirs(upload_folder, exist_ok=True)
 
 video_path = os.path.join(upload_folder, "input.mp4")
@@ -46,5 +46,5 @@ def video_feed():
     return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 10000))  # Render uses PORT env variable
+    port = int(os.environ.get("PORT", 10000))
     app.run(host='0.0.0.0', port=port)
