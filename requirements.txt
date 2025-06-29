@@ -2,6 +2,6 @@ Flask
 numpy
 opencv_python_headless
 scipy
-tensorflow
+tensorflow-cpu
 ultralytics
 gunicorn
